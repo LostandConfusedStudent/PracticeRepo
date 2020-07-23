@@ -3,3 +3,6 @@ This is used to practice HTML, CSS, and JS and experiment with random code. The 
 
 Objective 1:
 Create index.html with headers and paragraphs.
+
+Objective 2:
+Create style.css and stylize headers and paragraphs in index.html

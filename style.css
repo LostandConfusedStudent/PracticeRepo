@@ -1,7 +1,16 @@
 h1 {
-    color: red;
+    color: skyblue;
 }
 
 p {
-    color: blue;
+    color: navy;
+}
+
+strong {
+    color: red;
+    font-size: 50px;
+}
+
+.warning {
+    color: green;
 }

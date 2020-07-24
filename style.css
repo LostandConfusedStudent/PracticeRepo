@@ -3,6 +3,7 @@ h1 {
 }
 
 p {
+    display: block;
     color: navy;
 }
 
@@ -17,4 +18,17 @@ strong {
 
 .backwards {
     color: hotpink;
+}
+
+.container {
+    background-color: lightgrey;
+    width: 650px;
+    margin: 50px;
+    padding: 15px;
+    text-align: center;
+    border: 6px solid black;
+    border-bottom-width: 12px;
+    border-left-width: 12px;
+    border-radius: 20px;
+    box-sizing: border-box;
 }

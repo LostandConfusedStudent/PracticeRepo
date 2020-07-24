@@ -11,6 +11,10 @@ strong {
     font-size: 50px;
 }
 
-.warning {
+#warning {
     color: green;
+}
+
+.backwards {
+    color: hotpink;
 }

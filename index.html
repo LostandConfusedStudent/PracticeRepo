@@ -4,19 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <title>Practice Website</title>
 </head>
 <body>
-    <header>
-        <h1>Hi everyone. This is my practice website.</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="drawings.html">Drawings</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    
+    <!-- Header with navigation bar -->
+    <header class="header-area">
+
+        <div class="main-menu">
+             <nav class="navbar navbar-expand-md navbar-dark">
+                
+                <h1>Hi everyone. This is my practice website.</h1>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <div class="mr-auto"></div>
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="drawings.html">Drawings</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </div>
+
     </header>
 
+        <!-- Container to hold the content -->
         <section class="container">
     
             <p>I hope you don't judge me too much for my incompetence.</p>
@@ -40,5 +77,6 @@
             <a href="contact.html">Contact</a>
         </nav>
     </footer>
+
 </body>
 </html>

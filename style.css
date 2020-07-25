@@ -1,5 +1,10 @@
+header {
+    background: purple;
+}
+
 h1 {
     color: skyblue;
+    text-align: center;
 }
 
 p {
@@ -21,9 +26,10 @@ strong {
 }
 
 .container {
+    display: block;
     background-color: lightgrey;
     width: 650px;
-    margin: 50px;
+    margin: 40px auto;
     padding: 15px;
     text-align: center;
     border: 6px solid black;
@@ -31,4 +37,8 @@ strong {
     border-left-width: 12px;
     border-radius: 20px;
     box-sizing: border-box;
+}
+
+footer {
+    float: right;
 }
